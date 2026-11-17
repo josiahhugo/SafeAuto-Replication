@@ -20,11 +20,11 @@ With this we can measure:
 - False corrections of originally valid actions
 - Processing overhead introduced by verification
 
-# NOTES
-PDCE loss (llava/model/language_model/llava_llama.py)-- improves numerical prediction 
-Safety verification (pgm/) -- evaluate actions against traffic rules
-Multimodal RAG (retrieval/) -- retrieves relevant driving experiences
-Model evaluation (evaluate.bddx.py) -- evaluates predicitons on BDD-x
+# OG Repo Notes
+- PDCE loss (llava/model/language_model/llava_llama.py)-- improves numerical prediction 
+- Safety verification (pgm/) -- evaluate actions against traffic rules
+- Multimodal RAG (retrieval/) -- retrieves relevant driving experiences
+- Model evaluation (evaluate.bddx.py) -- evaluates predicitons on BDD-x
 
 # First Experiment: Reproducing PDCE
 Can test its mathematical implementation independently of the full multimodal model --> investigating whether it improves numerical prediction accuracy.  
